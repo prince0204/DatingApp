@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.API.Data
 {
-    public class UserAuthRepository : IUserAuthentication
+    public class UserAuthRepository : IUserAuthRepository
     {
         private readonly DataContext _context;
         public UserAuthRepository(DataContext context)
@@ -35,9 +35,9 @@ namespace DatingApp.API.Data
                  var computedHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
                  for(int i=0; i<computedHash.Length;i++){
                      if(passwordHash[i] != computedHash[i])
-                        return true;
+                        return false;
                  }
-                 return false;
+                 return true;
            }
         }
 
