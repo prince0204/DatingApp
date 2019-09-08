@@ -44,7 +44,7 @@ namespace DatingApp.API.Data
         public async Task<User> Register(User user, string password)
         {
            byte[] PasswordHash, PasswordSalt;
-           GeneratePasswordHash(password, out PasswordHash, out PasswordSalt);
+            GeneratePasswordHash(password, out PasswordHash, out PasswordSalt);
            user.PasswordHash = PasswordHash;
            user.PasswordSalt = PasswordSalt;
            await _context.Users.AddAsync(user);

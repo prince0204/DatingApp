@@ -12,3 +12,17 @@ D:\API\DatingAPI\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.pdb
 D:\API\DatingAPI\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorTargetAssemblyInfo.cache
 D:\API\DatingAPI\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.dll
 D:\API\DatingAPI\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.pdb
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csprojAssemblyReference.cache
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csproj.CoreCompileInputs.cache
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cache
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cs
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfoInputs.cache
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfo.cs
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.dll
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.pdb
+D:\C Sharp\Test\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.deps.json
+D:\C Sharp\Test\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.json
+D:\C Sharp\Test\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.dev.json
+D:\C Sharp\Test\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.dll
+D:\C Sharp\Test\DatingApp\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.pdb
+D:\C Sharp\Test\DatingApp\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorTargetAssemblyInfo.cache
