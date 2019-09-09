@@ -1,19 +1,23 @@
-<form #registerForm="ngForm" (ngSubmit)="register()">
-    <h2 class="text-center text-primary">Sign Up</h2>
-    <hr>
+<div class="card shadow mb-5 bg-white rounded">
+  <h5 class="card-header bg-primary text-light text-center py-4">
+    <strong>Register</strong>
+  </h5>
+  <div class="card-body px-lg-5 pt-0 mt-4">
+    <form #registerForm="ngForm" (ngSubmit)="register()" class="text-center" style="color: #757575;">
+      <div class="form-group md-form">
+        <input type="text" class="form-control" required name="username" [(ngModel)]="model.username" placeholder="Username">
+      </div>
+      <div class="form-group md-form">
+        <input type="password" class="form-control" required name="password" [(ngModel)]="model.password" placeholder="Password">
+      </div>
 
-    <div class="form-group">
-    <input type="text" class="form-control" required name="username" [(ngModel)]="model.username"
-    placeholder="Username">
-    </div>
-    <div class="form-group">
-    <input type="password" class="form-control" required name="password" [(ngModel)]="model.password"
-     placeholder="Password">
-    </div>
+      <div class="form-group text-center">
+        <button class="btn btn-primary mr-2" type="submit">Register</button>
+        <button class="btn btn-default" type="button" (click)="onCancel()">Cancel</button>
+      </div>
 
-    <div class="form-group text-center">
-    <button class="btn btn-primary mr-2" type="submit">Register</button>
-    <button class="btn btn-default" type="button" (click)="onCancel()">Cancel</button>
-    </div>
+    </form>
+  </div>
 
-   </form>
+
+</div>
