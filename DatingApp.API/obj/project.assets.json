@@ -11500,23 +11500,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\madhukumar_podapati\\.nuget\\packages\\": {},
+    "C:\\Users\\prince_kumar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\API\\DatingAPI\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "c:\\Users\\prince_kumar\\MadhuRepo\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "D:\\API\\DatingAPI\\DatingApp.API\\DatingApp.API.csproj",
-      "packagesPath": "C:\\Users\\madhukumar_podapati\\.nuget\\packages\\",
-      "outputPath": "D:\\API\\DatingAPI\\DatingApp.API\\obj\\",
+      "projectPath": "c:\\Users\\prince_kumar\\MadhuRepo\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "packagesPath": "C:\\Users\\prince_kumar\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\prince_kumar\\MadhuRepo\\DatingApp\\DatingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\madhukumar_podapati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\prince_kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
