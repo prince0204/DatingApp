@@ -9,5 +9,7 @@
     <PackageReference Include="Microsoft.AspNetCore.App"/>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.1"/>
     <PackageReference Include="CloudinaryDotNet" Version="1.3.1"/>
+    <PackageReference Include="IisConfiguration" Version="1.0.5710.23613"/>
+    <PackageReference Include="IISManager" Version="1.2.1"/>
   </ItemGroup>
 </Project>

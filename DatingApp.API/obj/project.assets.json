@@ -39,6 +39,21 @@
           "lib/netstandard1.3/CloudinaryDotNet.dll": {}
         }
       },
+      "IisConfiguration/1.0.5710.23613": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Administration": "7.0.0"
+        },
+        "compile": {
+          "lib/net451/IisConfiguration.dll": {}
+        },
+        "runtime": {
+          "lib/net451/IisConfiguration.dll": {}
+        }
+      },
+      "IISManager/1.2.1": {
+        "type": "package"
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -2615,6 +2630,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Web.Administration/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/Microsoft.Web.Administration.dll": {}
+        },
+        "runtime": {
+          "lib/net20/Microsoft.Web.Administration.dll": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -4416,6 +4440,112 @@
         "lib/netcore/CloudinaryDotNet.dll",
         "lib/netstandard1.3/CloudinaryDotNet.deps.json",
         "lib/netstandard1.3/CloudinaryDotNet.dll"
+      ]
+    },
+    "IisConfiguration/1.0.5710.23613": {
+      "sha512": "s4zIbmR1z2C3u7h+Q9bFl4U1DPQeIxa/Dpusmzv97EwInEDHQ/dqwywkLA/wlmSs2q/xRYy1t7km6KCVtrcFZA==",
+      "type": "package",
+      "path": "iisconfiguration/1.0.5710.23613",
+      "files": [
+        ".signature.p7s",
+        "iisconfiguration.1.0.5710.23613.nupkg.sha512",
+        "iisconfiguration.nuspec",
+        "lib/net451/IisConfiguration.XML",
+        "lib/net451/IisConfiguration.dll"
+      ]
+    },
+    "IISManager/1.2.1": {
+      "sha512": "LLaW8AiraFjAGAvGkrplZeQNyJWoBfHGkYXXoSTWu142As2/YAJMuyb+wTo3+ivLKZGTbcxRc6UpEoEWAsfw/Q==",
+      "type": "package",
+      "path": "iismanager/1.2.1",
+      "files": [
+        ".signature.p7s",
+        "content/App_Data/add-environment-variable.xdt",
+        "content/App_Data/additional-mimemap.xdt",
+        "content/App_Data/default.xdt",
+        "content/App_Data/set-queue-length.xdt",
+        "content/Content/Site.css",
+        "content/Global.asax",
+        "content/Views/Home/Index.cshtml",
+        "content/Views/Shared/_Layout.cshtml",
+        "content/Views/_ViewStart.cshtml",
+        "content/Views/web.config",
+        "content/Web.config",
+        "content/bin/FatAntelope.Core.dll",
+        "content/bin/IISManager.dll",
+        "content/bin/IISManager.pdb",
+        "content/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+        "content/bin/Microsoft.Web.Infrastructure.dll",
+        "content/bin/Microsoft.Web.XmlTransform.dll",
+        "content/bin/Newtonsoft.Json.dll",
+        "content/bin/Newtonsoft.Json.pdb",
+        "content/bin/System.Net.Http.Formatting.dll",
+        "content/bin/System.Web.Helpers.dll",
+        "content/bin/System.Web.Http.WebHost.dll",
+        "content/bin/System.Web.Http.dll",
+        "content/bin/System.Web.Mvc.dll",
+        "content/bin/System.Web.Razor.dll",
+        "content/bin/System.Web.WebPages.Deployment.dll",
+        "content/bin/System.Web.WebPages.Razor.dll",
+        "content/bin/System.Web.WebPages.dll",
+        "content/bin/ja/System.Web.Helpers.resources.dll",
+        "content/bin/ja/System.Web.Mvc.resources.dll",
+        "content/bin/ja/System.Web.Razor.resources.dll",
+        "content/bin/ja/System.Web.WebPages.Deployment.resources.dll",
+        "content/bin/ja/System.Web.WebPages.Razor.resources.dll",
+        "content/bin/ja/System.Web.WebPages.resources.dll",
+        "content/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll",
+        "content/bin/roslyn/Microsoft.CSharp.Core.targets",
+        "content/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
+        "content/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll",
+        "content/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll",
+        "content/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "content/bin/roslyn/Microsoft.CodeAnalysis.dll",
+        "content/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll",
+        "content/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll",
+        "content/bin/roslyn/Microsoft.Managed.Core.targets",
+        "content/bin/roslyn/Microsoft.VisualBasic.Core.targets",
+        "content/bin/roslyn/Microsoft.Win32.Primitives.dll",
+        "content/bin/roslyn/System.AppContext.dll",
+        "content/bin/roslyn/System.Collections.Immutable.dll",
+        "content/bin/roslyn/System.Console.dll",
+        "content/bin/roslyn/System.Diagnostics.DiagnosticSource.dll",
+        "content/bin/roslyn/System.Diagnostics.FileVersionInfo.dll",
+        "content/bin/roslyn/System.Diagnostics.StackTrace.dll",
+        "content/bin/roslyn/System.Globalization.Calendars.dll",
+        "content/bin/roslyn/System.IO.Compression.ZipFile.dll",
+        "content/bin/roslyn/System.IO.Compression.dll",
+        "content/bin/roslyn/System.IO.FileSystem.Primitives.dll",
+        "content/bin/roslyn/System.IO.FileSystem.dll",
+        "content/bin/roslyn/System.Net.Http.dll",
+        "content/bin/roslyn/System.Net.Sockets.dll",
+        "content/bin/roslyn/System.Reflection.Metadata.dll",
+        "content/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "content/bin/roslyn/System.Security.Cryptography.Algorithms.dll",
+        "content/bin/roslyn/System.Security.Cryptography.Encoding.dll",
+        "content/bin/roslyn/System.Security.Cryptography.Primitives.dll",
+        "content/bin/roslyn/System.Security.Cryptography.X509Certificates.dll",
+        "content/bin/roslyn/System.Text.Encoding.CodePages.dll",
+        "content/bin/roslyn/System.Threading.Tasks.Extensions.dll",
+        "content/bin/roslyn/System.ValueTuple.dll",
+        "content/bin/roslyn/System.Xml.ReaderWriter.dll",
+        "content/bin/roslyn/System.Xml.XPath.XDocument.dll",
+        "content/bin/roslyn/System.Xml.XPath.dll",
+        "content/bin/roslyn/System.Xml.XmlDocument.dll",
+        "content/bin/roslyn/VBCSCompiler.exe",
+        "content/bin/roslyn/VBCSCompiler.exe.config",
+        "content/bin/roslyn/csc.exe",
+        "content/bin/roslyn/csc.exe.config",
+        "content/bin/roslyn/csc.rsp",
+        "content/bin/roslyn/csi.exe",
+        "content/bin/roslyn/csi.exe.config",
+        "content/bin/roslyn/csi.rsp",
+        "content/bin/roslyn/vbc.exe",
+        "content/bin/roslyn/vbc.exe.config",
+        "content/bin/roslyn/vbc.rsp",
+        "content/packages.config",
+        "iismanager.1.2.1.nupkg.sha512",
+        "iismanager.nuspec"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -6807,6 +6937,17 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Web.Administration/7.0.0": {
+      "sha512": "I/8+lJbgyt0t1rTC0PEEgl6jzm69VTBdIV1LlmJvgdkTi0t9Vk/rreW7jBr1dcZC/Z55GLU9+kv0TjlXAfHnlw==",
+      "type": "package",
+      "path": "microsoft.web.administration/7.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net20/Microsoft.Web.Administration.dll",
+        "microsoft.web.administration.7.0.0.nupkg.sha512",
+        "microsoft.web.administration.nuspec"
       ]
     },
     "Microsoft.Win32.Registry/4.5.0": {
@@ -11606,6 +11747,8 @@
     ".NETCoreApp,Version=v2.1": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 4.0.1",
       "CloudinaryDotNet >= 1.3.1",
+      "IISManager >= 1.2.1",
+      "IisConfiguration >= 1.0.5710.23613",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
@@ -11659,6 +11802,14 @@
             "target": "Package",
             "version": "[1.3.1, )"
           },
+          "IISManager": {
+            "target": "Package",
+            "version": "[1.2.1, )"
+          },
+          "IisConfiguration": {
+            "target": "Package",
+            "version": "[1.0.5710.23613, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -11686,6 +11837,26 @@
       "warningLevel": 1,
       "message": "CloudinaryDotNet 1.3.1 depends on Newtonsoft.Json (>= 11.0.0) but Newtonsoft.Json 11.0.0 was not found. An approximate best match of Newtonsoft.Json 11.0.1 was resolved.",
       "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'IisConfiguration 1.0.5710.23613' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "IisConfiguration",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Administration 7.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Administration",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
       ]
