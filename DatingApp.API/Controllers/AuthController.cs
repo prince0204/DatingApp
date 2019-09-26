@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using DatingApp.API.Data;
 using System.Threading.Tasks;
-using DatingApp.API.Model;
+using DatingApp.API.Models;
 using DatingApp.API.Dtos;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
