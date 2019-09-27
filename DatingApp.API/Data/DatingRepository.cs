@@ -10,7 +10,7 @@ namespace DatingApp.API.Data
 {
     public class DatingRepository : IDatingRepository
     {
-         private readonly DataContext _context;
+        private readonly DataContext _context;
         public DatingRepository(DataContext context)
         {
             _context = context;
@@ -25,7 +25,7 @@ namespace DatingApp.API.Data
             _context.Remove(entity);
         }
 
-          public async Task<Photo> GetPhoto(int id)
+        public async Task<Photo> GetPhoto(int id)
         {
             var photo = await _context.Photos.FirstOrDefaultAsync(p => p.Id == id);
 
@@ -102,7 +102,7 @@ namespace DatingApp.API.Data
             {
                 return user.Likers.Where(u => u.LikeeId == id).Select(i => i.LikerId);
             }
-            else 
+            else
             {
                 return user.Likees.Where(u => u.LikerId == id).Select(i => i.LikeeId);
             }
@@ -112,11 +112,11 @@ namespace DatingApp.API.Data
         {
             return await _context.SaveChangesAsync() > 0;
         }
-        
+
 
         public async Task<Like> GetLike(int userId, int recipientId)
-        { 
-            return await _context.Likes.FirstOrDefaultAsync(u => 
+        {
+            return await _context.Likes.FirstOrDefaultAsync(u =>
                 u.LikerId == userId && u.LikeeId == recipientId);
         }
 
@@ -135,15 +135,15 @@ namespace DatingApp.API.Data
             switch (messageParams.MessageContainer)
             {
                 case "Inbox":
-                    messages = messages.Where(u => u.RecipientId == messageParams.UserId 
+                    messages = messages.Where(u => u.RecipientId == messageParams.UserId
                         && u.RecipientDeleted == false);
                     break;
                 case "Outbox":
-                    messages = messages.Where(u => u.SenderId == messageParams.UserId 
+                    messages = messages.Where(u => u.SenderId == messageParams.UserId
                         && u.SenderDeleted == false);
                     break;
                 default:
-                    messages = messages.Where(u => u.RecipientId == messageParams.UserId 
+                    messages = messages.Where(u => u.RecipientId == messageParams.UserId
                         && u.RecipientDeleted == false && u.IsRead == false);
                     break;
             }
@@ -156,10 +156,12 @@ namespace DatingApp.API.Data
         public async Task<IEnumerable<Message>> GetMessageThread(int userId, int recipientId)
         {
             var messages = await _context.Messages
-                .Where(m => m.RecipientId == userId && m.RecipientDeleted == false 
-                    && m.SenderId == recipientId 
-                    || m.RecipientId == recipientId && m.SenderId == userId 
-                    && m.SenderDeleted == false)
+                            .Include(u => u.Sender).ThenInclude(p => p.Photos)
+                            .Include(u => u.Recipient).ThenInclude(p => p.Photos)
+                            .Where(m => m.RecipientId == userId && m.RecipientDeleted == false
+                                && m.SenderId == recipientId
+                                || m.RecipientId == recipientId && m.SenderId == userId
+                                && m.SenderDeleted == false)
                 .OrderByDescending(m => m.MessageSent)
                 .ToListAsync();
 

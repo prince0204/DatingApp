@@ -38,3 +38,7 @@
 .bg-color {
     background-color:black;
 }
+
+.member-icons-like:enabled {
+color: crimson !important;
+}
